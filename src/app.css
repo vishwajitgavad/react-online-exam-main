@@ -1,0 +1,48 @@
+.container-fluid {
+    min-height: 100vh;
+    padding: 5rem 0rem;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-preparing-for-the-college-entrance-examination-college-entrance-examination-sprint-poster-image_192440.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card{
+    border-radius: 0;
+    border: 3px double white;
+}
+
+.card-header{
+    border-bottom: 1px solid white;
+}
+
+.card-footer{
+border-top: 1px solid white;
+}
+
+.btn{
+    border-radius: 0;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-sm{
+    background-color: transparent;
+    padding: 0.25rem 1rem;
+    border: 1px solid white;
+}
+
+.btn-sm:hover,.submit-btn:hover{
+    border: 1px solid white;
+    background-color: white;
+}
+
+.btn:focus{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.submit-btn{
+    border: 1px solid white;
+    background-color: transparent;
+}
